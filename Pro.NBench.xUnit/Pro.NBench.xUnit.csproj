@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-      <IsPackable>true</IsPackable>
+    <IsPackable>true</IsPackable>
     <TargetFramework>netstandard1.6</TargetFramework>
     <Version>1.0.3</Version>
     <Authors>Pro-Coded,David Paul McQuiggin</Authors>
@@ -21,6 +21,7 @@ https://github.com/Pro-Coded/Pro.NBench.xUnit</Description>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NBench" Version="1.0.4" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.1" />
     <PackageReference Include="System.Diagnostics.TraceSource" Version="4.3.0" />
     <PackageReference Include="System.Reflection.Emit.ILGeneration" Version="4.3.0" />
     <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.3.0" />
